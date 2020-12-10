@@ -8,7 +8,7 @@
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
-    var coordinator: MainCoordinator?
+//    var coordinator: MainCoordinator?
     var window: UIWindow?
 
 
@@ -18,12 +18,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let windowScene = (scene as? UIWindowScene) else { return }
         
-        let naviController = UINavigationController()
-        coordinator = MainCoordinator(navigationController: naviController)
-        coordinator?.start()
+//        let naviController = UINavigationController()
+//        coordinator = MainCoordinator(navigationController: naviController)
+//        coordinator?.start()
         
         window = UIWindow(windowScene: windowScene)
-        window?.rootViewController = naviController
+        window?.rootViewController = MainTabBarViewController()
         window?.makeKeyAndVisible()
         
         

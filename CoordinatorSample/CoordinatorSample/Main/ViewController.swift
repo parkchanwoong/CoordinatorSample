@@ -11,6 +11,7 @@ class ViewController: UIViewController, Storyboarded {
     
     weak var coordinator: MainCoordinator?
 
+    @IBOutlet weak var product: UISegmentedControl!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
