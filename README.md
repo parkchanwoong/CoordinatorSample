@@ -7,5 +7,6 @@ Coordinator 패턴 연습
 2. 더 간결한것은 없는지?
 
 
-출처: https://www.youtube.com/watch?v=7HgbcTqxoN4 
-     https://www.youtube.com/watch?v=ueByb0MBMQ4
+출처 1편: https://www.youtube.com/watch?v=7HgbcTqxoN4
+
+출처 2편: https://www.youtube.com/watch?v=ueByb0MBMQ4
