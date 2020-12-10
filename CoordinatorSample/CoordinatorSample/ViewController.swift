@@ -7,7 +7,9 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, Storyboarded {
+    
+    weak var coordinator: MainCoordinator?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,5 +17,11 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func buyTapped(_ sender: UIButton) {
+        coordinator?.buySubscription()
+    }
+    @IBAction func createAccountTapped(_ sender: UIButton) {
+        coordinator?.createAccount()
+    }
 }
 
